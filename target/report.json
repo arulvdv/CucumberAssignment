@@ -1,0 +1,327 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3866688300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be able to navigate to demo url",
+            "match": {
+              "location": "LoginValidation.user_should_be_able_to_navigate_to_demo_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T09:17:55.060Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1011144000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.initializeDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate Sign up",
+        "description": "",
+        "id": "validate-sign-up-and-email-compose;validate-sign-up;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 162295400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1298960300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click on Sing up link",
+            "match": {
+              "location": "LoginValidation.user_should_click_on_Sing_up_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121201600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters First name \"arul2\" and \"vadivu2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arul2\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"vadivu2\"",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginValidation.user_enters_First_name_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125231900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters Email \"arulvadivu2@gmail.com\" and Username \"arulvadivu2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arulvadivu2@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"arulvadivu2\"",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginValidation.user_enters_Email_and_Username(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121509800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters Password \"arul123\" and \"arul123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arul123\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"arul123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginValidation.user_enters_Password_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1224985700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should click on Register button",
+            "match": {
+              "location": "LoginValidation.user_should_click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1552699000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to Sign up",
+            "match": {
+              "location": "LoginValidation.user_should_be_able_to_Sign_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenario1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3584643800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be able to navigate to demo url",
+            "match": {
+              "location": "LoginValidation.user_should_be_able_to_navigate_to_demo_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T09:18:04.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 670542700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.initializeDriver()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate Email compose",
+        "description": "",
+        "id": "validate-sign-up-and-email-compose;validate-email-compose;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 164761700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99525500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters Username \"arulvadivu\" and Password \"arul123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arulvadivu\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"arul123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginValidation.user_enters_Username_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1822595700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should click on Login",
+            "match": {
+              "location": "LoginValidation.user_should_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5417263400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should click Inbox and then Compose message",
+            "match": {
+              "location": "LoginValidation.user_should_click_Inbox_and_then_Compose_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494995500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should enter Send to \"ami\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ami\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginValidation.user_should_enter_Send_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58749000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should enter Subject \"Sample email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample email\"",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginValidation.user_should_enter_Subject(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047470600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should be able to send the email successfully",
+            "match": {
+              "location": "LoginValidation.user_should_be_able_to_send_the_email_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Sign Up and Email compose",
+    "description": "",
+    "id": "validate-sign-up-and-email-compose",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Login.feature",
+    "tags": []
+  }
+]

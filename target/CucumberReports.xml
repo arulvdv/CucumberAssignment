@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.089216">
+    <testcase classname="Validate Sign Up and Email compose" name="Validate Sign up" time="13.089216">
+        <system-out><![CDATA[Given User should be able to navigate to demo url...........................passed
+And User should click on Sing up link.......................................passed
+When User enters First name "arul" and "vadivu".............................passed
+And User enters Email "arulvadivu@gmail.com" and Username "arulvadivu"......passed
+And User enters Password "arul123" and "arul123"............................passed
+And User should click on Register button....................................passed
+Then User should be able to Sign up.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
